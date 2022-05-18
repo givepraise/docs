@@ -1,6 +1,5 @@
 ---
-title: Praise
-description: Praise community contributions to build a culture of giving and gratitude.
+description: Acknowledge and reward community contributions, build a culture of giving and gratitude.
 hide_table_of_contents: true
 ---
 

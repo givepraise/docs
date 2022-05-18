@@ -1,8 +1,6 @@
 ![Praise](static/img/banner.png)
 
-Praise community contributions to build a culture of giving and gratitude.
-
-# Praise docs website
+This repository contains the landing page and docs for Praise - the rewards system allowing communities to acknowledge community contributions, building a culture of giving and gratitude.
 
 The Praise docs website is built using [Docusaurus 2](https://docusaurus.io/).
 

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Praise',
-  tagline: 'Praise community contributions to build a culture of giving and gratitude.',
+  title: 'Praise 🙏',
+  tagline: 'Acknowledge and reward community contributions, build a culture of giving and gratitude.',
   url: 'https://givepraise.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -50,6 +50,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/share.png',
       navbar: {
         title: 'Praise',
         logo: {
