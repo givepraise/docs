@@ -1,5 +1,6 @@
 ---
-description: Acknowledge and reward community contributions, build a culture of giving and gratitude.
+title: Building a culture of giving and gratitude
+description: Praise is a rewards system allowing communities to acknowledge and reward member contributions.
 hide_table_of_contents: true
 ---
 
