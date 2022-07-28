@@ -75,10 +75,6 @@ cd praise
 bash setup.sh
 ```
 
-Setup notes:
-
-- Praise requires a
-
 ## Build and run all services
 
 ```
