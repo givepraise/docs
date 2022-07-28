@@ -55,7 +55,7 @@ Add the role in the Praise system settings.
 Invite the bot to your server using this link:
 
 ```
-https://discord.com/api/oauth2/authorize?client_id=<APPLICATION ID>&permissions=378561611840&scope=bot%20applications.commands/
+https://discord.com/api/oauth2/authorize?client_id=<APPLICATION ID>&permissions=378561611840&scope=bot%20applications.commands
 ```
 
 Replace `<APPLICATION ID>` with the numeric APPLICATION ID you just copied.

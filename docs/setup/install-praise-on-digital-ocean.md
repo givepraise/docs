@@ -15,6 +15,16 @@ When writing this guide we used the following Droplet config:
 
 Praise might well run on a smaller setup as well, that is yet to be determined though.
 
+## Configure a hostname
+
+The webserver hosting the Praise dashboard automatically generates https certificates and therefore needs be configured with a hostname. Configure an `A RECORD` at your DNS provider that points to the Droplet IP.
+
+For example, the Commons Stack Praise DNS setup:
+
+| TYPE | DOMAIN NAME             | IP             | TTL    |
+| ---- | ----------------------- | -------------- | ------ |
+| A    | praise.commonsstack.org | 167.172.63.125 | 30 min |
+
 ## Use ssh to access Droplet
 
 ```
@@ -62,13 +72,17 @@ Run the Praise setup script to configure the runtime environment:
 
 ```
 cd praise
-sh setup.sh
+bash setup.sh
 ```
+
+Setup notes:
+
+- Praise requires a
 
 ## Build and run all services
 
 ```
-sh start.sh
+bash start.sh
 ```
 
 ## Finished 🎉

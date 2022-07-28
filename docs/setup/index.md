@@ -9,7 +9,7 @@ slug: /
 
 Currently, Praise isn't offered as a service. Instead, every community runs its own server. The installation process requires only basic server knowledge and takes about 30 minutes. We have verified the installation on Digital Ocean but should with little or no modifications work on any Ubuntu server.
 
-[How to install Praise on Digital Ocean](./install-praise-on-digital-ocean.md)
+- [How to install Praise on Digital Ocean](./install-praise-on-digital-ocean.md)
 
 ## Run Praise locally
 
@@ -44,7 +44,7 @@ Create and setup the Discord bot. Be sure to take not of ENV variables during se
 Run the Praise setup script to configure the runtime environment:
 
 ```
-sh setup.sh
+bash setup.sh
 ```
 
 ### 5. Start MongoDB

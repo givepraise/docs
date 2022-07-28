@@ -22,7 +22,7 @@ ssh root@xxx.xxx.xxx.xxx
 
 ```
 cd praise
-sh upgrade.sh
+bash upgrade.sh
 ```
 
 ## 👍 That's it
