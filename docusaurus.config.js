@@ -34,10 +34,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/commons-stack/praise-web/tree/main',
         },
         blog: false, 
         theme: {
@@ -61,7 +59,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'setup/index',
+            docId: 'index',
             position: 'left',
             label: 'Docs',
           },

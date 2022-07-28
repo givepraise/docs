@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Configure ufw firewall to work with Docker
 
 Docker does not work well with the ufw firewall without some configuration. Read more about these issues on [stackoverflow](https://stackoverflow.com/questions/30383845/what-is-the-best-practice-of-docker-ufw-under-ubuntu).

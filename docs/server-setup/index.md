@@ -1,9 +1,6 @@
----
-sidebar_position: 1
-id: install-praise-on-digital-ocean
----
-
 # How to install Praise on Digital Ocean
+
+The installation process requires only basic server knowledge and takes about 30 minutes. We have verified the installation on Digital Ocean but should with little or no modifications work on any Ubuntu server.
 
 ## Create a Droplet
 
@@ -66,6 +63,12 @@ Clone the Praise repository from GitHub:
 git clone https://github.com/CommonsBuild/praise.git
 ```
 
+## Create a Discord bot
+
+The Discord bot used to interact with Praise is created in the Discord developer dashboard. Take note of the various bot ids during bot creation as they will be used in the next step.
+
+- [Create the Praise Discord bot](create-discord-bot.md)
+
 ## Configure environment
 
 Run the Praise setup script to configure the runtime environment:
@@ -75,7 +78,7 @@ cd praise
 bash setup.sh
 ```
 
-## Build and run all services
+## Start Praise
 
 ```
 bash start.sh
