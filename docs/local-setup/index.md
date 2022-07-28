@@ -24,7 +24,7 @@ yarn
 
 The Discord bot used to interact with Praise is created in the Discord developer dashboard. Take note of the various bot ids during bot creation as they will be used in the next step.
 
-- [Create the Praise Discord bot](create-discord-bot.md)
+- [Create the Praise Discord bot](../server-setup/create-discord-bot.md)
 
 ## Configure environment
 

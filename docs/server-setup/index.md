@@ -30,7 +30,7 @@ ssh root@xxx.xxx.xxx.xxx
 
 This guide installs Praise under the root user, making no effort to secure the server. The following steps are optional but highly recommended:
 
-- [Set up a firewall plus a user account with reduced privileges](digital-ocean-initial-setup.md)
+- [Set up a firewall plus a user account with reduced privileges](setup-firewall-and-user.md)
 
 ## Install Docker
 
