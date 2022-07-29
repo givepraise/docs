@@ -12,13 +12,13 @@ Always check the [release notes](https://github.com/commons-stack/praise/release
 
 :::
 
-## Use ssh to access server
+## Step 1 – Use ssh to access server
 
 ```
 ssh root@xxx.xxx.xxx.xxx
 ```
 
-## Run upgrade script
+## Step 2 – Run upgrade script
 
 ```
 cd praise

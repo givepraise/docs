@@ -1,6 +1,6 @@
 # Server scripts
 
-Praise comes bundled with a few bash scripts to simplify the management of a Praise installation.
+Praise comes with a few bash scripts to simplify the management of a Praise installation.
 
 Run scripts using `bash [scriptname]`.
 
