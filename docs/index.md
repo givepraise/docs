@@ -28,4 +28,4 @@ As an open source product, Praise can be deployed by any community that wishes t
 
 However, we also support communities that wish to have Commons Stack manage this process for them. In contracting Commons Stack, you will work with the core team members that have conceived and developed Praise as well as benefit from our experience deploying and managing Praise in multiple communities.
 
-Reach out to us on the [Commons Stack Discord](<(http://discord.link/commonsstack)>) to talk about this option.
+Reach out to us on the [Commons Stack Discord](http://discord.link/commonsstack) to talk about this option.
