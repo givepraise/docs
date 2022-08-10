@@ -8,6 +8,11 @@ const sidebars = {
     },    
     {
       type: 'doc',
+      label: 'How Praise works', 
+      id: 'how-praise-works', 
+    },    
+    {
+      type: 'doc',
       label: 'Getting started', 
       id: 'getting-started', 
     },    
@@ -17,7 +22,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      collapsed: false,
+      collapsed: true,
       items: [
         'server-setup/index',
         'server-setup/setup-firewall-and-user',
@@ -31,6 +36,16 @@ const sidebars = {
       type: 'doc',
       label: 'Run Praise locally', 
       id: 'local-setup/index', 
+    },    
+    {
+      type: 'doc',
+      label: 'Using Praise', 
+      id: 'using-praise', 
+    },    
+    {
+      type: 'doc',
+      label: 'Writing excellent Praise', 
+      id: 'writing-excellent-praise', 
     },    
   ],
 };

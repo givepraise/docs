@@ -41,5 +41,7 @@
 }
 
 .button.button--secondary {
-  color: var(--ifm-color-gray-200);
+  background-color: #e6007e;
+  border-width: 0;
+  color: #fff;
 }

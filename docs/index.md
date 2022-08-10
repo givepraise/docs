@@ -1,14 +1,10 @@
----
-sidebar_position: 1
----
-
 # What is Praise?
 
-As decentralized organizations grow it becomes more difficult to involve the whole community in determining what contributions to value. Praise invites communities to build a culture of giving and gratitude, involving contributors at every step of the process.
+As decentralized organizations grow it is challenging to involve the whole community in determining what contributions to value. Praise invites communities to build a culture of giving and gratitude, reward contributions to the community and involve the community every step of the way.
 
-Praise allows communities to acknowledge the full spectrum of value created - ranging from small to large contributions over a number of platforms. Even contributions made outside of any tech platform can be praised.
+By using Praise, communities acknowledge the full spectrum of value created - ranging from small to large contributions. Even contributions made outside of any platform can be praised. Praise allows for bottom up value systems to emerge by listening to what the community values.
 
-The praise process has been tried and tested over a number of months in communities such as the TEC - the Token Engineering Commons, Commons Stack and Giveth. The tools developed along the way have now been turned into the open source project Praise.
+Praise has been tried and tested in communities such as the Token Engineering Commons, Commons Stack and Giveth.
 
 Praise is similar to a team allocation in other token economies, but done via a unique distributed signal aggregation approach intended to achieve many goals:
 
@@ -25,3 +21,11 @@ Praise is an open source system developed by [Commons Stack](https://commonsstac
 - [Discord](http://discord.link/commonsstack)
 - [Telegram](https://t.me/joinchat/HGrjjRS2PoowbH1ODuefuA)
 - [Discord](https://twitter.com/commonsstack)
+
+## Commons Stack Services
+
+As an open source product, Praise can be deployed by any community that wishes to use it. The deployment protocols we use are also freely available to guide a community through self-deployment.
+
+However, we also support communities that wish to have Commons Stack manage this process for them. In contracting Commons Stack, you will work with the core team members that have conceived and developed Praise as well as benefit from our experience deploying and managing Praise in multiple communities.
+
+Reach out to us on the [Commons Stack Discord](<(http://discord.link/commonsstack)>) to talk about this option.
