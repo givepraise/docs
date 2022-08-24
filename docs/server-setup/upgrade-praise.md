@@ -18,10 +18,16 @@ Always check the [release notes](https://github.com/commons-stack/praise/release
 ssh root@xxx.xxx.xxx.xxx
 ```
 
-## Step 2 – Run upgrade script
+## Step 2 – Pull latest changes from the code repository
 
 ```
 cd praise
+git pull
+```
+
+## Step 3 – Run upgrade script
+
+```
 bash upgrade.sh
 ```
 
