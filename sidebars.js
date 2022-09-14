@@ -38,6 +38,19 @@ const sidebars = {
       id: 'local-setup/index', 
     },    
     {
+      type: 'category',
+      label: 'Configuring Praise',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: true,
+      items: [
+        'configuring/application',
+        'configuring/period-defaults',
+        'configuring/discord-bot',
+      ],
+    },
+    {
       type: 'doc',
       label: 'Using Praise', 
       id: 'using-praise', 
@@ -46,6 +59,16 @@ const sidebars = {
       type: 'doc',
       label: 'Writing excellent Praise', 
       id: 'writing-excellent-praise', 
+    },    
+    {
+      type: 'doc',
+      label: 'Glossary', 
+      id: 'glossary', 
+    },    
+    {
+      type: 'doc',
+      label: 'FAQ', 
+      id: 'faq', 
     },    
   ],
 };
