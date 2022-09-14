@@ -31,22 +31,27 @@ Right click on your Discord server icon and select `Copy ID`. Take note of this 
 
 - Press the `Reset Token` button to reset and generate a bot token.
 - Copy and note the generated bot token. This is the Praise ENV settings `Discord Token`.
-  > NOTE - Do not share this token publically and ensure that it isn't posted anywhere.
+
+:::warning
+
+Do not share this token publicly and ensure that it isn't posted anywhere.
+
+:::
 
 ## Step 6 – Note Discord Client ID
 
-- Go to the `General Information` tab of your application.
-- Copy and note `APPLICATION ID`. This is the Praise ENV settings `Discord Client ID`.
+- Go to the `OAuth2` tab of your application.
+- Copy and note `CLIENT ID`. This is the Praise ENV settings `Discord Client ID`.
 
 ## Step 7 – Invite bot to Discord server
 
 Invite the bot to your server using this link:
 
 ```
-https://discord.com/api/oauth2/authorize?client_id=<APPLICATION ID>&permissions=378561611840&scope=bot%20applications.commands
+https://discord.com/api/oauth2/authorize?client_id=<CLIENT ID>&permissions=378561611840&scope=bot%20applications.commands
 ```
 
-Replace `<APPLICATION ID>` with the numeric APPLICATION ID you just copied.
+Replace `<CLIENT ID>` with the numeric CLIENT ID you just copied.
 
 ## Done 🎉
 
