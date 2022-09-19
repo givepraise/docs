@@ -4,8 +4,9 @@
  */
 
 .landingContainer {
-  width: 600px;
+  width: 700px;
   margin: auto;
+  text-align: center;
 }
 
 @media screen and (max-width: 650px) {

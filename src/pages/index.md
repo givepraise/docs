@@ -20,11 +20,11 @@ Praise has been tried and tested in communities such as the Token Engineering Co
 
 Praise is similar to a team allocation in other token economies, but done via a unique distributed signal aggregation approach intended to achieve many goals:
 
-- Acknowledge and reward full spectrum contributions
-- A clear and transparent process with full community involvement
-- Create a culture of giving and gratitude
-- Instigate decentralized updates about work being done
-- Focus on transparency and data analysis
+✅ Acknowledge and reward full spectrum contributions.
+✅ A clear and transparent process with full community involvement.
+✅ Create a culture of giving and gratitude.
+✅ Instigate decentralized updates about work being done.
+✅ Focus on transparency and data analysis
 
 <SetupButton/>
 
