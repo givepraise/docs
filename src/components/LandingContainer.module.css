@@ -7,6 +7,11 @@
   width: 700px;
   margin: auto;
   text-align: center;
+  font-size: 20px;
+}
+
+.landingContainer h2 {
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 650px) {

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className={styles.heroHeader}>Praise</div>
-      <div className={styles.heroTagline}>Acknowledge and reward community contributions, build a culture of giving and gratitude</div>
+      <div className={styles.heroTagline}>Recognize and reward community contributions, foster a culture of giving and gratitude.</div>
       </>
   );
 }
