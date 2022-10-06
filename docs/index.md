@@ -30,7 +30,7 @@ Praise is an open source system developed by [Commons Stack](https://commonsstac
 
 - [Discord](http://discord.link/commonsstack)
 - [Telegram](https://t.me/joinchat/HGrjjRS2PoowbH1ODuefuA)
-- [Discord](https://twitter.com/commonsstack)
+- [Twitter](https://twitter.com/commonsstack)
 
 ## Commons Stack Services
 
