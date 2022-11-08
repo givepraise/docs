@@ -48,7 +48,7 @@ Do not share this token publicly and ensure that it isn't posted anywhere.
 Invite the bot to your server using this link:
 
 ```
-https://discord.com/api/oauth2/authorize?client_id=<CLIENT ID>&permissions=378561611840&scope=bot%20applications.commands
+https://discord.com/api/oauth2/authorize?client_id=<CLIENT ID>&permissions=274878023680&scope=bot%20applications.commands
 ```
 
 Replace `<CLIENT ID>` with the numeric CLIENT ID you just copied.
