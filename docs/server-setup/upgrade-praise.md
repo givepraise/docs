@@ -25,7 +25,15 @@ cd praise
 git pull
 ```
 
-## Step 3 – Run upgrade script
+## Step 3 - Run setup script
+
+The setup script makes sure the Praise environment is correctly setup. You will not have to answer any questions already answered as the script will use the existing environment variables.
+
+```
+bash setup.sh
+```
+
+## Step 4 – Run upgrade script
 
 ```
 bash upgrade.sh
