@@ -7,10 +7,19 @@ const sidebars = {
       id: 'index', 
     },    
     {
-      type: 'doc',
-      label: 'How Praise works', 
-      id: 'how-praise-works', 
-    },    
+      type: 'category',
+      label: 'How Praise works',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: [
+        'how-praise-works/praise',
+        'how-praise-works/quantify',
+        'how-praise-works/analyze',
+        'how-praise-works/reward',
+      ],
+    },
     {
       type: 'doc',
       label: 'Getting started', 

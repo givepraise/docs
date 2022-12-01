@@ -1,7 +1,7 @@
-import React from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './SetupButton.module.css';
 import Link from '@docusaurus/Link';
+import React from 'react';
+import styles from './SetupButton.module.css';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const SetupButton = () => {
   const {siteConfig} = useDocusaurusContext();
@@ -10,8 +10,8 @@ const SetupButton = () => {
         <div className={styles.buttons}>
         <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started">
-            Setup Praise →
+            to="/docs/how-praise-works/praise">
+            Show me how Praise works!
         </Link>        
         </div>
       </div>
