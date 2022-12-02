@@ -12,11 +12,7 @@ import LandingContainer from '@site/src/components/LandingContainer';
 
 <Header/>
 
-As decentralized organizations grow in size, it becomes difficult to involve the community in determining what contributions to value. Praise encourages communities to cultivate a culture of giving and gratitude by recognizing and rewarding contributions.
-
-By listening to what the community values and involving members every step of the way, praise allows bottom-up value systems to emerge. This bottom-up approach to value creation is essential for ensuring that the community remains invested and engaged.
-
-Praise is used to recognize the full range of value created, from minor to major contributions. Contributions made outside of any platform can also be recognized. This promotes a more positive and productive community as a whole.
+Praise is an open-source rewards system where community members continuously acknowledge each other's contributions by "praising" them. This bottom-up approach to value recognition keeps the community engaged and invested. Praise can recognize any contribution, big or small, and even those made outside of any platform. This improves cooperation, promotes a more positive and productive community.
 
 <SetupButton/>
 
