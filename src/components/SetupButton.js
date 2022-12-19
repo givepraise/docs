@@ -11,7 +11,7 @@ const SetupButton = () => {
         <Link
             className="button button--secondary button--lg"
             to="/docs/how-praise-works/praise">
-            Show me how Praise works!
+            Tell me more!
         </Link>        
         </div>
       </div>
