@@ -12,21 +12,21 @@ import LandingContainer from '@site/src/components/LandingContainer';
 
 <Header/>
 
-Praise is an open-source rewards system where community members continuously acknowledge each other's contributions by "praising" them. This bottom-up approach to value recognition keeps the community engaged and invested. Praise can recognize any contribution, big or small, and even those made outside of any platform. This improves cooperation, promotes a more positive and productive community.
+Praise is a community intelligence system that promotes active participation and collaboration through peer recognition and rewards.
+
+## How does it work?
+
+```
+/praise @vitalik.eth for "inventing Ethereum"
+```
+
+Community members interact with a Discord Praise bot to acknowledge each other's contributions. This bottom-up approach to value recognition keeps the community engaged and invested. Praise can recognize any contribution, big or small, and even those made outside of any platform. This improves cooperation and promotes a more positive and productive community.
 
 <SetupButton/>
 
 ## Who uses Praise?
 
-Praise has been tried and tested in communities such as the [Token Engineering Commons](https://tecommons.org), [Commons Stack](https://commonsstack.org) and [Giveth](https://giveth.io).
-
-## Recognizing contributions, but how?
-
-Praise integrates with the community's existing tools and platforms. It can be used to recognize contributions made on GitHub, Discord, Twitter, Telegram, and more. It can also be used to recognize contributions made outside of any platform. To recognize a contribution, a member of the community simply needs to interact with the praise bot:
-
-```
-/praise @vitalik.eth for "inventing Ethereum"
-```
+Praise has been tried and tested in communities such as the [Token Engineering Commons](https://tecommons.org), [Commons Stack](https://commonsstack.org), [Giveth](https://giveth.io) and [Gnosis](https://gnosischain.com/).
 
 ## On what platforms is Praise available?
 
