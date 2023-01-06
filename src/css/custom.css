@@ -53,15 +53,6 @@
   color: #fff;
 }
 
-.main-wrapper {
-  background: radial-gradient(
-    circle 900px at top 150px left 300px,
-    rgba(230, 0, 126, 0.3),
-    #fff
-  );
-  background-repeat: no-repeat;
-}
-
 .mdx-page .main-wrapper {
   background: radial-gradient(
     circle 900px at top 150px left 300px,
