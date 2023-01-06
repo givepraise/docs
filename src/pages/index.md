@@ -19,7 +19,7 @@ Praise is a community intelligence system that promotes active participation and
 
 <div class="black-section">
 
-## How does it work?
+# How does it work?
 
 ```
 /praise @vitalik.eth for "inventing Ethereum"
