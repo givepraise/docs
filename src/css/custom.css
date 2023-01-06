@@ -53,24 +53,6 @@
   color: #fff;
 }
 
-.mdx-page .main-wrapper {
-  background: radial-gradient(
-    circle 900px at top 150px left 300px,
-    rgba(230, 0, 126, 0.4),
-    #fff
-  );
-  background-repeat: no-repeat;
-}
-
-[data-theme="dark"] .main-wrapper {
-  background: radial-gradient(
-    circle 900px at top 150px left 300px,
-    rgba(230, 0, 126, 0.4),
-    #000
-  );
-  background-repeat: no-repeat;
-}
-
 .black-section {
   background-color: #000;
   color: #fff;
