@@ -41,17 +41,17 @@ Use Praise for insight into how your community works. Praise provides all kinds 
 
 ## 2. Reputation
 
-Use Praise to build reputation scores. The Praise contribution graph represents a verifiable record of community contributions - who did what, when and to what impact?!
+Use Praise to build reputation scores. The Praise contribution graph represents a verifiable record of community contributions - **who did what, when and to what impact?!**
 <PraiseHands class="tiny-praise-hands"/>
 
 ## 3. Rewards
 
-Use Praise to reward contributors based on actual contributions and impact. Praise integrates with a number of token distribution platforms.
+Use Praise to reward contributors based on actual contributions and impact. Praise integrates with a number of **token distribution platforms**.
 <PraiseHands class="tiny-praise-hands"/>
 
 ## 4. Culture of giving and gratitude
 
-Use Praise to build a culture of cooperation, giving, and gratitude within your community. Research has shown that praise can reinforce positive feelings and strengthen bonds between people. In online communities, this can be especially important for creating a sense of community and fostering cooperation.
+Use Praise to build a culture of cooperation, giving, and gratitude within your community. Research has shown that praise can **reinforce positive feelings** and **strengthen bonds** between people. In online communities, this can be especially important for creating a sense of community and fostering cooperation.
 
 <div class="black-section">
 
