@@ -27,9 +27,9 @@ Praise is a community intelligence system that promotes active participation and
 
 Community members interact with a Discord Praise bot to acknowledge each other's contributions. This bottom-up approach to value recognition keeps the community engaged and invested. Praise can recognize any contribution, big or small, and even those made outside of any platform. This improves cooperation and promotes a more positive and productive community.
 
-</div>
-
 <SetupButton/>
+
+</div>
 
 # Four reasons to use Praise
 
@@ -59,8 +59,8 @@ Use Praise to build a culture of cooperation, giving, and gratitude within your 
 
 Praise has been tried and tested in communities such as the [Token Engineering Commons](https://tecommons.org), [Commons Stack](https://commonsstack.org), [Giveth](https://giveth.io) and [Gnosis](https://gnosischain.com/).
 
-</div>
-
 <SetupButton/>
+
+</div>
 
 </LandingContainer>
