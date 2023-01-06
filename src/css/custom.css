@@ -22,6 +22,9 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "HelveticaNeue-Regular";
+  --ifm-leading: 2rem;
+  --ifm-heading-margin-bottom: 2rem;
+  --ifm-paragraph-margin-bottom: 2rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -40,8 +43,73 @@
   max-width: 600px;
 }
 
+.hash-link {
+  display: none;
+}
+
 .button.button--secondary {
   background-color: #e6007e;
   border-width: 0;
   color: #fff;
+}
+
+.main-wrapper {
+  background: radial-gradient(
+    circle 900px at top 150px left 300px,
+    rgba(230, 0, 126, 0.3),
+    #fff
+  );
+  background-repeat: no-repeat;
+}
+
+.mdx-page .main-wrapper {
+  background: radial-gradient(
+    circle 900px at top 150px left 300px,
+    rgba(230, 0, 126, 0.4),
+    #fff
+  );
+  background-repeat: no-repeat;
+}
+
+[data-theme="dark"] .main-wrapper {
+  background: radial-gradient(
+    circle 900px at top 150px left 300px,
+    rgba(230, 0, 126, 0.4),
+    #000
+  );
+  background-repeat: no-repeat;
+}
+
+.black-section {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 50px 30px 50px;
+  margin: 80px 0;
+}
+
+[data-theme="dark"] .black-section {
+  background-color: #fff;
+  color: #000;
+}
+
+.small-praise-hands {
+  width: 30px;
+  height: 30px;
+  margin: 80px;
+  color: #e6007e;
+}
+
+[data-theme="dark"] .small-praise-hands {
+  color: white;
+}
+
+.tiny-praise-hands {
+  width: 15px;
+  height: 15px;
+  margin: 1rem 0 2.5rem 0;
+  color: #e6007e;
+}
+
+[data-theme="dark"] .tiny-praise-hands {
+  color: white;
 }

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Praise 🙏',
-  tagline: 'Acknowledge and reward community contributions, build a culture of giving and gratitude.',
+  tagline: 'Unlock the full potential of your community with reputation scores, rewards and deep insights.',
   url: 'https://givepraise.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -35,7 +35,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/commons-stack/praise-web/tree/main',
+            'https://github.com/givepraise/praise-web/tree/main',
         },
         blog: false, 
         theme: {
@@ -64,7 +64,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/commons-stack/praise',
+            href: 'https://github.com/givepraise/praise',
             label: 'GitHub',
             position: 'right',
           },
@@ -74,21 +74,14 @@ const config = {
         links: [
           {
             label: 'Discord',
-            href: 'http://discord.link/commonsstack',
+            href: 'https://discord.gg/72HUmabwEs',
           },
           {
             label: 'Twitter',
-            href: 'https://twitter.com/commonsstack',
+            href: 'https://twitter.com/givepraise',
           },
         ],
-        logo: {
-          alt: 'Commons Stack',
-          src: 'img/cs.png',
-          href: 'https://commonsstack.org',
-          width: 80,
-          height: 80,
-        },
-        copyright: `Praise is an open source system developed by <a href="https://commonsstack.org">Commons Stack</a>. To learn more about how Praise could be used in your community please reach out to us!`,  
+        copyright: `Praise is an open source system developed by <a href="https://generalmagic.io">General Magic</a>. To learn more about how Praise could be used in your community please reach out to us!`,  
       },
       prism: {
         theme: lightCodeTheme,

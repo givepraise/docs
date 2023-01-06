@@ -6,6 +6,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0 var(--ifm-paragraph-margin-bottom);
-  padding-top: 10px;
+  margin: 0 0 50px 0;
 }
