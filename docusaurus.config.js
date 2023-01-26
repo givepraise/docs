@@ -27,6 +27,7 @@ const config = {
     locales: ['en'],
   },
 
+  
   presets: [
     [
       'classic',
@@ -45,6 +46,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -62,6 +77,12 @@ const config = {
             docId: 'index',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            href: '/waitlist',
+            position: 'left',
+            label: 'Get Praise!',
+            className: 'navbar-get-praise',
           },
           {
             href: 'https://github.com/givepraise/praise',
