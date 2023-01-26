@@ -60,7 +60,7 @@
 }
 
 svg {
-  @apply inline-block;
+  @apply !inline-block;
 }
 
 ul {
