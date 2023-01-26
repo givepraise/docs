@@ -11,8 +11,8 @@ import PraiseHands from '@site/src/components/PraiseHands';
 
 <LandingContainer>
 
-<div className="mt-12 text-center mb-4">
-  <div className="text-9xl mb-4 text-[13vw]">Praise</div>
+<div className="heroContainer">
+  <div className="heroHeader">Praise</div>
   <div className="text-3xl">Unlock the full potential of your community with reputation scores, rewards and deep insights.</div>
 </div>
 

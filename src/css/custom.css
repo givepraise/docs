@@ -64,7 +64,7 @@ svg {
 }
 
 ul {
-  @apply list-disc ml-8;
+  @apply ml-8 list-disc;
 }
 
 body {
@@ -80,7 +80,7 @@ h2 {
 }
 
 .black-section {
-  @apply bg-black text-white p-12 pb-12 my-20;
+  @apply p-12 pb-12 my-20 text-white bg-black;
 }
 
 .black-section h2 {
@@ -92,13 +92,7 @@ h2 {
 }
 
 [data-theme="dark"] .black-section {
-  @apply bg-white text-black;
-}
-
-.hs-button {
-  background-color: #e6007e;
-  border-width: 0;
-  color: #fff;
+  @apply text-black bg-white;
 }
 
 .hbspt-form {
@@ -116,4 +110,12 @@ h2 {
 
 .markdown a {
   @apply underline;
+}
+
+.heroContainer {
+  @apply mb-4 text-center md:mt-12;
+}
+
+.heroHeader {
+  @apply text-[24vw] font-medium md:text-[200px] md:leading-[230px];
 }
