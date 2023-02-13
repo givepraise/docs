@@ -1,46 +1,53 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Praise 🙏',
-  tagline: 'Unlock the full potential of your community with reputation scores, rewards and deep insights.',
-  url: 'https://givepraise.xyz',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Praise 🙏",
+  tagline:
+    "Unlock the full potential of your community with reputation scores, rewards and deep insights.",
+  url: "https://givepraise.xyz",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'commons-stack', // Usually your GitHub org/user name.
-  projectName: 'praise', // Usually your repo name.
+  organizationName: "commons-stack", // Usually your GitHub org/user name.
+  projectName: "praise", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
-  
+  scripts: [
+    "https://platform.twitter.com/widgets.js",
+    {
+      src: "https://platform.twitter.com/widgets.js",
+      async: true,
+    },
+  ],
+
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/givepraise/praise-web/tree/main',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/givepraise/praise-web/tree/main",
         },
-        blog: false, 
+        blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -59,50 +66,50 @@ const config = {
       };
     },
   ],
-  
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/share.png',
+      image: "img/share.png",
       navbar: {
-        title: 'Praise',
+        title: "Praise",
         logo: {
-          alt: 'Praise',
-          src: 'img/icon.png',
-          srcDark: 'img/iconDark.png'
+          alt: "Praise",
+          src: "img/icon.png",
+          srcDark: "img/iconDark.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: 'Docs',
+            type: "doc",
+            docId: "index",
+            position: "left",
+            label: "Docs",
           },
           {
-            href: '/waitlist',
-            position: 'left',
-            label: 'Get Praise!',
-            className: 'navbar-get-praise',
+            href: "/waitlist",
+            position: "left",
+            label: "Get Praise!",
+            className: "navbar-get-praise",
           },
           {
-            href: 'https://github.com/givepraise/praise',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/givepraise/praise",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
         links: [
           {
-            label: 'Discord',
-            href: 'https://discord.gg/72HUmabwEs',
+            label: "Discord",
+            href: "https://discord.gg/72HUmabwEs",
           },
           {
-            label: 'Twitter',
-            href: 'https://twitter.com/givepraise',
+            label: "Twitter",
+            href: "https://twitter.com/givepraise",
           },
         ],
-        copyright: `Praise is an open source system developed by <a href="https://generalmagic.io">General Magic</a>. To learn more about how Praise could be used in your community please reach out to us!`,  
+        copyright: `Praise is an open source system developed by <a href="https://generalmagic.io">General Magic</a>. To learn more about how Praise could be used in your community please reach out to us!`,
       },
       prism: {
         theme: lightCodeTheme,

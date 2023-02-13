@@ -123,3 +123,7 @@ h2 {
 .heroHeader {
   @apply text-[24vw] font-medium md:text-[200px] md:leading-[230px];
 }
+
+.twitter-tweet {
+  @apply mx-auto !mb-20;
+}
