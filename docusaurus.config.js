@@ -92,8 +92,7 @@ const config = {
             className: "navbar-get-praise",
           },
           {
-            href: "https://github.com/givepraise/praise",
-            label: "GitHub",
+            type: "custom-HeaderSocialLogos",
             position: "right",
           },
         ],

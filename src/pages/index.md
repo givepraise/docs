@@ -8,6 +8,7 @@ import '@site/src/css/custom.css';
 import GetPraiseButton from '@site/src/components/GetPraiseButton';
 import LandingContainer from '@site/src/components/LandingContainer';
 import PraiseHands from '@site/src/components/PraiseHands';
+import ForceDirectedLogos from '@site/src/components/ForceDirectedLogos';
 
 <LandingContainer>
 
@@ -61,14 +62,8 @@ Use Praise to reward contributors based on actual contributions and impact. Prai
 
 Use Praise to build a culture of cooperation, giving, and gratitude within your community. Research has shown that praise can **reinforce positive feelings** and **strengthen bonds** between people. In online communities, this can be especially important for creating a sense of community and fostering cooperation.
 
-<div className="black-section">
-
 # Who uses Praise?
 
-Praise has been tried and tested in communities such as the [Token Engineering Commons](https://tecommons.org), [Commons Stack](https://commonsstack.org), [Giveth](https://giveth.io) and [Gnosis](https://gnosischain.com/).
-
-<GetPraiseButton/>
-
-</div>
+<ForceDirectedLogos/>
 
 </LandingContainer>
