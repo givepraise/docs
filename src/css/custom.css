@@ -127,3 +127,7 @@ h2 {
 .twitter-tweet {
   @apply mx-auto !mb-20;
 }
+
+.menu__list .overlap-hover {
+  @apply mt-4;
+}
