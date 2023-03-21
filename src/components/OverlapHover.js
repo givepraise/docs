@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const OverlapHover = ({
   children,
@@ -10,6 +10,13 @@ const OverlapHover = ({
   darkMode = false,
 }) => {
   const [hovered, setHovered] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+
+  useEffect(() => {
+    if (window.matchMedia("(pointer: coarse)").matches) {
+      setIsTouchDevice(true);
+    }
+  }, []);
 
   const onMouseEnter = () => {
     setHovered(true);
@@ -58,7 +65,7 @@ const OverlapHover = ({
           {React.Children.map(children, (child, index) => {
             const logoProps = {
               ...child.props,
-              expand: hovered,
+              expand: isTouchDevice ? true : hovered,
               index: index,
               size: size,
               spacing: spacing,
