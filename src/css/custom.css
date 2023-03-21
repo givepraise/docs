@@ -138,7 +138,7 @@ h2 {
 }
 
 .menu__list-item {
-  @apply text-6xl text-black;
+  @apply text-4xl text-black;
 }
 
 .navbar,
