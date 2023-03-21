@@ -7,6 +7,7 @@ const OverlapHover = ({
   overlap = 0.33,
   direction = "right",
   className = "",
+  darkMode = false,
 }) => {
   const [hovered, setHovered] = useState(false);
 
@@ -23,31 +24,53 @@ const OverlapHover = ({
     childCount - 1
   })`;
 
-  const wrapperClassName = `flex justify-center ${className}`;
-
   return (
-    <div className={wrapperClassName}>
+    <div>
+      <style>
+        {`
+          .overlap-hover {
+            display: flex;
+            justify-content: center;
+          }
+
+          .overlap-hover-image,
+          .overlap-hover-svg {
+            position: absolute;
+            transition: all 0.3s;
+          }
+
+          .overlap-hover-image.dark-mode img,
+          .overlap-hover-svg.dark-mode svg {
+            filter: invert(1);
+          }
+        `}
+      </style>
       <div
-        className="relative"
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
+        className={`overlap-hover ${className}`}
         style={{ width: wrapperWidth, height: size }}
       >
-        {React.Children.map(children, (child, index) => {
-          const logoProps = {
-            ...child.props,
-            expand: hovered,
-            index: index,
-            size: size,
-            spacing: spacing,
-            overlap: overlap,
-            direction: direction,
-          };
-          return React.cloneElement(child, logoProps);
-        })}
+        <div
+          className="relative"
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+          style={{ width: wrapperWidth, height: size }}
+        >
+          {React.Children.map(children, (child, index) => {
+            const logoProps = {
+              ...child.props,
+              expand: hovered,
+              index: index,
+              size: size,
+              spacing: spacing,
+              overlap: overlap,
+              direction: direction,
+              darkMode: darkMode,
+            };
+            return React.cloneElement(child, logoProps);
+          })}
+        </div>
       </div>
     </div>
   );
 };
-
 export default OverlapHover;

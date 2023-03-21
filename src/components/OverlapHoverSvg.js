@@ -1,7 +1,7 @@
 import React from "react";
 
-const OverlapHoverImage = ({
-  img,
+const OverlapHoverSvg = ({
+  svg,
   href,
   className = "",
   darkMode = false,
@@ -29,8 +29,8 @@ const OverlapHoverImage = ({
 
   return (
     <div
-      className={`overlap-hover-image ${darkModeClass}`}
-      style={positionStyle}
+      className={`overlap-hover-svg ${darkModeClass}`}
+      style={{ width: size, height: size, ...positionStyle }}
     >
       <a
         href={href}
@@ -38,10 +38,10 @@ const OverlapHoverImage = ({
         rel="noopener noreferrer"
         className={`cursor-pointer ${className}`}
       >
-        <img src={img} alt="Logo" width={size} height={size} />
+        {svg}
       </a>
     </div>
   );
 };
 
-export default OverlapHoverImage;
+export default OverlapHoverSvg;

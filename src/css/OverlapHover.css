@@ -1,0 +1,15 @@
+.overlap-hover {
+  display: flex;
+  justify-content: center;
+}
+
+.overlap-hover-image,
+.overlap-hover-svg {
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.overlap-hover-image.dark-mode img,
+.overlap-hover-svg.dark-mode svg {
+  filter: invert(1);
+}
