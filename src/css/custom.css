@@ -29,6 +29,7 @@
   --ifm-leading: 2rem;
   --ifm-heading-margin-bottom: 2rem;
   --ifm-paragraph-margin-bottom: 1rem;
+  --ifm-menu-color: #000;
 }
 
 .markdown {
@@ -107,7 +108,7 @@ h2 {
   @apply ml-0;
 }
 
-.navbar-get-praise {
+.navbar__items .navbar-get-praise {
   background-color: #e6007e;
   @apply text-white rounded-full hover:text-white;
 }
@@ -130,4 +131,17 @@ h2 {
 
 .menu__list .overlap-hover {
   @apply mt-4;
+}
+
+.menu__list .overlap-hover {
+  @apply invisible;
+}
+
+.menu__list-item {
+  @apply text-6xl text-black;
+}
+
+.navbar,
+.navbar-sidebar__brand {
+  @apply shadow-none;
 }
