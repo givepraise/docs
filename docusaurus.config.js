@@ -86,6 +86,11 @@ const config = {
             label: "Docs",
           },
           {
+            to: "https://mirror.xyz/givepraise.eth",
+            position: "left",
+            label: "Blog",
+          },
+          {
             href: "/waitlist",
             position: "left",
             label: "Get Praise!",
@@ -100,8 +105,12 @@ const config = {
       footer: {
         links: [
           {
+            label: "Github",
+            href: "https://github.com/givepraise/praise",
+          },
+          {
             label: "Discord",
-            href: "https://discord.gg/72HUmabwEs",
+            href: "https://discord.gg/U2ydzXBG6C",
           },
           {
             label: "Twitter",
