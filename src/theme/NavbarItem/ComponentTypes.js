@@ -1,30 +1,28 @@
 import ComponentTypes from "@theme-original/NavbarItem/ComponentTypes";
-import DiscordLogo from "./Discord.svg";
-import GithubLogo from "./Github.svg";
-import OverlapHover from "../../components/OverlapHover";
-import OverlapHoverSvg from "../../components/OverlapHoverSvg";
+// import OverlapHover from "../../components/OverlapHover";
+// import OverlapHoverSvg from "../../components/OverlapHoverSvg";
 import React from "react";
-import TwitterLogo from "./Twitter.svg";
 import { useColorMode } from "@docusaurus/theme-common";
+import { OverlapHover, OverlapHoverSvg } from "react-overlap";
 
 const HeaderSocialLogos = () => {
   const { colorMode } = useColorMode();
 
   const logoData = [
     {
-      img: "/img/social-logos/github.png",
       href: "https://github.com/givepraise/praise",
-      svg: <GithubLogo />,
+      svg: "/img/svg/Github.svg",
+      alt: "GitHub",
     },
     {
-      img: "/img/social-logos/discord.png",
       href: "https://discord.gg/U2ydzXBG6C",
-      svg: <DiscordLogo />,
+      svg: "/img/svg/Discord.svg",
+      alt: "Discord",
     },
     {
-      img: "/img/social-logos/twitter.png",
       href: "https://twitter.com/givepraise",
-      svg: <TwitterLogo />,
+      svg: "/img/svg/Twitter.svg",
+      alt: "Twitter",
     },
   ];
 
