@@ -9,7 +9,7 @@ import '@site/src/css/custom.css';
 import WaitListHeader from '@site/src/components/WaitListHeader';
 import LandingContainer from '@site/src/components/LandingContainer';
 import PraiseHands from '@site/src/components/PraiseHands';
-import WaitListForm2 from '@site/src/components/WaitListForm2';
+import WaitListForm from '@site/src/components/WaitListForm';
 
 <LandingContainer>
 
@@ -22,7 +22,7 @@ For a limited time, we’re offering free deployment and setup services to selec
 <div className="black-section">
 
 <h2>Get Praise – Waitlist</h2>
-<WaitListForm2/>
+<WaitListForm/>
 
 </div>
 
