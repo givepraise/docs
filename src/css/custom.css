@@ -46,6 +46,7 @@
   --ifm-color-primary-lighter: #d9a1a1;
   --ifm-color-primary-lightest: #f3b3b3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-menu-color: #fff;
 }
 
 .footer .container {
@@ -138,7 +139,7 @@ h2 {
 }
 
 .menu__list-item {
-  @apply text-4xl text-black;
+  @apply text-xl text-black;
 }
 
 .navbar,
