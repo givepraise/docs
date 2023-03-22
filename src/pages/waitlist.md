@@ -19,7 +19,12 @@ import WaitListForm from '@site/src/components/WaitListForm';
 
 For a limited time, we’re offering free deployment and setup services to selected communities. Join the waiting list and be the first to know when a new slot becomes available.
 
+<div className="black-section">
+
+<h2>Get Praise – Waitlist</h2>
 <WaitListForm/>
+
+</div>
 
 Don’t want to wait? The open-source version of Praise is available now for self-hosting, with [easy setup instructions](/docs/category/run-praise-on-a-server).
 
