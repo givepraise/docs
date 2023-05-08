@@ -14,6 +14,6 @@ Praise like this:
 
 In the above example, Jessica is given clear praise for her contributions to the community. Not only is she "showing up", she also does it with "gusto" and provides great feedback. This is a great example of how to praise someone.
 
-See more examples of praise: [Writing excellent Praise](/docs/writing-excellent-praise)
+See more examples of praise: [Writing excellent Praise](/writing-excellent-praise)
 
 In the next section, we will walk you through the responsibilities of Quantifiers and the quantification process.

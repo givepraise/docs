@@ -79,7 +79,7 @@ const config = {
           src: "img/icon.png",
           srcDark: "img/iconDark.png",
         },
-        items: [          ],
+        items: [],
       },
       footer: {
         links: [

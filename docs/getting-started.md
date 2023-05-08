@@ -4,5 +4,5 @@ Praise isn't offered as a service. Instead, every community runs its own server.
 
 Praise can also be run locally for evaluation purposes.
 
-- [Run Praise on a server](/docs/server-setup)
-- [Run Praise locally](/docs/local-setup)
+- [Run Praise on a server](/server-setup)
+- [Run Praise locally](/local-setup)
