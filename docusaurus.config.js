@@ -42,8 +42,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/givepraise/praise-web/tree/main",
+          editUrl: "https://github.com/givepraise/docs/tree/main",
         },
         blog: false,
         theme: {
@@ -78,29 +79,7 @@ const config = {
           src: "img/icon.png",
           srcDark: "img/iconDark.png",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "index",
-            position: "left",
-            label: "Docs",
-          },
-          {
-            to: "https://mirror.xyz/givepraise.eth",
-            position: "left",
-            label: "Blog",
-          },
-          {
-            href: "/waitlist",
-            position: "left",
-            label: "Get Praise!",
-            className: "navbar-get-praise",
-          },
-          {
-            type: "custom-HeaderSocialLogos",
-            position: "right",
-          },
-        ],
+        items: [          ],
       },
       footer: {
         links: [
