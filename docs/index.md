@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 # What is Praise?
 
 Recognize and reward community contributions, foster a culture of giving and gratitude.
