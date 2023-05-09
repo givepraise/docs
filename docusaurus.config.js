@@ -79,7 +79,29 @@ const config = {
           src: "img/icon.png",
           srcDark: "img/iconDark.png",
         },
-        items: [],
+        items: [
+          {
+            type: "doc",
+            docId: "index",
+            position: "left",
+            label: "Docs",
+          },
+          {
+            to: "https://givepraise.substack.com/",
+            position: "left",
+            label: "Blog",
+          },
+          {
+            to: "https://givepraise.xyz/waitlist",
+            position: "left",
+            label: "Get Praise!",
+            className: "navbar-get-praise",
+          },
+          {
+            type: "custom-HeaderSocialLogos",
+            position: "right",
+          },
+        ],
       },
       footer: {
         links: [
