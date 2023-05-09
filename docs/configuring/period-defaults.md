@@ -8,13 +8,13 @@ The period defaults serves as a template when creating new periods. Changes to t
 
 Allowing more than one person to quantify each praise improves the quality of quantifications because of decreased personal bias. Increasing the number of quantifiers also decreases the risk of scoring collusion between quantifiers and praise receivers. The final praise score is an average of the individual quantifications.
 
-Increasing this value requires more users to be in the [quantifier pool](/docs/glossary#quantifier-pool).
+Increasing this value requires more users to be in the [quantifier pool](/glossary#quantifier-pool).
 
 ## Praise Per Quantifier
 
 `Default value: 100`
 
-The second value that determines the number of users needed in the [quantifier pool](/docs/glossary#quantifier-pool) is this. `Praise Per Quantifier` determines the workload of each individual quantifier. The more praise a quantifier gets assigned, the higher the workload is and the less quantifiers needed in the pool.
+The second value that determines the number of users needed in the [quantifier pool](/glossary#quantifier-pool) is this. `Praise Per Quantifier` determines the workload of each individual quantifier. The more praise a quantifier gets assigned, the higher the workload is and the less quantifiers needed in the pool.
 
 Note that the exact number of praise per quantifier can differ from this setting after assigning. The assignment algorithm also need to take into account the total number of praise, the number of quantifiers and who praised who.
 

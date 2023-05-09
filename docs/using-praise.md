@@ -20,6 +20,6 @@ The `/praise` command accepts two options:
 
 1. `receivers` – the Discord handles of one or more people you want to praise. ![Receivers](/img/using3.png)
 
-2. `reason` – the contribution you would like to praise, see [Writing Excellent Praise](/docs/writing-excellent-praise) for tips on how to formulate “good praise”. ![Reason](/img/using4.png)
+2. `reason` – the contribution you would like to praise, see [Writing Excellent Praise](/writing-excellent-praise) for tips on how to formulate “good praise”. ![Reason](/img/using4.png)
 
 After you hit enter, you will see a green check mark that indicates your Praise was successful. ![Success](/img/using4.png)
