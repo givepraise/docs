@@ -31,4 +31,4 @@ Examples of AI powered insights:
 - Impact analysis
 - Contribution categorization
 - Auto generated contributor profiles and bios
-- Auto generated organsation charts
+- Auto generated organisation charts
