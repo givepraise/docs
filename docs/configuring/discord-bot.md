@@ -1,6 +1,6 @@
 # Discord Bot
 
-The majority of the discord bot settings consist of message templates. Please read through and modify these temlpates to suit you community needs.
+The majority of the discord bot settings consist of message templates. Please read through and modify these templates to suit your community needs.
 
 In addition to message templates there are some settings to modify the behaviour of the bot.
 
@@ -38,7 +38,7 @@ Enable Discord developer mode:
 
 1. Login to Discord
 2. Click on gear icon to open user settings
-3. Click on `Advanced` tab in side bard
+3. Click on `Advanced` tab on the sidebar
 4. Check `Developer Mode`
 
 Copy ID:
