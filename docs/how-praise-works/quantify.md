@@ -6,7 +6,7 @@ This score can later be used to:
 
 - Serve as the base for a monetary or token based reward
 - Count the number of active contributors in the community
-- Visualize communtiy activity
+- Visualize community activity
 - Rank contributions in a leaderboard
 - Serve as the base for a reputation system - who did what?
 
@@ -27,11 +27,11 @@ In addition to selecting trusted community members as Quantifiers, the Praise sy
 - Quantifiers are not able to see the scores of other quantifiers. This ensures that they are not influenced by the scoring of others.
 - The assignment of quantifiers is done randomly. This ensures that the same quantifiers are not assigned to the same praise receivers over and over.
 - Each praise is scored by more than one quantifier. This ensures that the final scores are not influenced by the quantifier's personal bias.
-- The pool of quantifiers should be large enough to make it difficult to predict which quantifier is assigned to what praise receiver. This ensures that quantifiers are not able to collude with praise recivers or accept bribes for giving high scores.
+- The pool of quantifiers should be large enough to make it difficult to predict which quantifier is assigned to what praise receiver. This ensures that quantifiers are not able to collude with praise receivers or accept bribes for giving high scores.
 
 ## Praise score
 
-Each praise should be scored at least three quantifiers, ideally four. The scores are then averaged to produdce the final praise score.
+Each praise should be scored at least three quantifiers, ideally four. The scores are then averaged to produce the final praise score.
 
 Example:
 
@@ -49,4 +49,4 @@ Quantifier     Score
 Average / final score: 7.25
 ```
 
-In addition to giving a score, quantifiers can also **dismiss** praise. This is useful when the praise is not relevant to the community or does not provide enough details to be quanified. A praise can also be marked as a **duplicate** if it refers to the same contribution as another praise. In this case the duplicate praise gets a score of 0-100% of the score of the original praise based on system settings.
+In addition to giving a score, quantifiers can also **dismiss** praise. This is useful when the praise is not relevant to the community or does not provide enough details to be quantified. A praise can also be marked as a **duplicate** if it refers to the same contribution as another praise. In this case the duplicate praise gets a score of 0-100% of the score of the original praise based on system settings.
