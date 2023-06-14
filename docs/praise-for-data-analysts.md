@@ -13,6 +13,8 @@ While the Praise Dashboard already offers basic analysis tools, our Data Analysi
 We offer two different frameworks based on your preferred programming language: Jupyter for Python, and Observable for Javascript.
 
 ### Jupyter
+![JuPyDemo](/img/JupyterDemoPhoto.png)
+
 For Python enthusiasts, we maintain a Colaboratory folder housing a collection of Analysis Notebooks. These notebooks can be run online or downloaded and modified to suit your needs. Each notebook allows you to select a specific time window for analysis and loads the selected data into a local DuckDB database. The Notebooks can be found [here](https://drive.google.com/drive/folders/1VgguuTxYsdrx1TnULlnTtPad057NV10I?usp=drive_link).
 
 ### Observable
