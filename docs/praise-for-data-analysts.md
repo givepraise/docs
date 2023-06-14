@@ -21,7 +21,7 @@ For those who prefer Javascript, we offer a range of Praise Analysis Notebooks h
 
 ## How to use Praise for Data Analysts
 ### Jupyter
-If you want to use our Jupyter Notebooks, head over to our [Colab folder](https://drive.google.com/drive/folders/1VgguuTxYsdrx1TnULlnTtPad057NV10I?usp=drive_link) and either download a Notebook or directly run it online. For this example, we will use the main [Praise Analysis Notebook](https://observablehq.com/collection/@kristofer/praise).
+If you want to use our Jupyter Notebooks, head over to our [Colab folder](https://drive.google.com/drive/folders/1VgguuTxYsdrx1TnULlnTtPad057NV10I?usp=drive_link) and either download a Notebook or directly run it online. For this example, we will use the main [Praise Analysis Notebook](https://observablehq.com/collection/@praise/praise-tools-for-data-analysts).
 
 Let's take a closer look at the individual cells.
 
