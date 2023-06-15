@@ -146,3 +146,11 @@ h2 {
 .navbar-sidebar__brand {
   @apply shadow-none;
 }
+
+.imageborder {
+  @apply p-8 mb-3;
+}
+
+.imageborder img {
+  @apply rounded-lg drop-shadow-2xl;
+}
