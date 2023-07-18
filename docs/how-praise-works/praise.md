@@ -1,18 +1,34 @@
-# Step 1 – Praise
+# Step 1 - Praise
 
-Praise helps build strong communities by fostering a spirit of cooperation and mutual support. Praising strengthen ties between people. When we receive praise from someone, it reinforces our positive feelings towards them and helps to build a stronger sense of connection. Praise can also help to build a sense of community by helping to create a sense of shared purpose. When we praise someone, we are acknowledging that they are doing something important for the community.
+Praising is the starting point of the Praise system. This simple act of peer recognition breathes life into the entire process.
 
-Praising is easy! Community members acknowledge each others contributions by interacting with a chat bot. Currently the bot is available for Discord communities, but we are working on adding support for other platforms.
+When community members acknowledge each other's contributions through praise statements, it fosters a spirit of cooperation, strengthens social ties, and builds a sense of shared purpose.
 
-Praise like this:
+Some key benefits of praising:
+
+- Creates a culture of appreciation and gratitude
+- Highlights efforts that may have gone unnoticed
+- Reinforces positive feelings between community members
+- Motivates contributors and boosts morale
+- Signals contributions that benefit the community
+- Promotes transparency around participation
+
+Praising is easy and accessible to all members through the Praise bot on Discord. More platforms coming soon!
+
+### Interact with the Praise bot
+
+To praise someone, simply type a command like `/praise @john` and then describe their contribution in your own words. Be specific and provide context about the impact.
+
+Here's an example praise statement:
 
 ```
-/praise @jessica "for always showing up to the quantification review calls with
-                  such gusto, she always provides such great feedback and well-
-                  thought observations into our reward system and analysis."
+/praise @jane for staying late to help contributors at the ETHGlobal hackathon.
+ She provided invaluable technical guidance which led to the success of many projects!
 ```
 
-In the above example, Jessica is given clear praise for her contributions to the community. Not only is she "showing up", she also does it with "gusto" and provides great feedback. This is a great example of how to praise someone.
+The more detailed and thoughtful the praise, the richer the data that can be extracted. But no contribution is too small to acknowledge!
+
+Ready to start spreading positivity? Find the Praise bot in your community and share your first praise today!
 
 See more examples of praise: [Writing excellent Praise](/writing-excellent-praise)
 

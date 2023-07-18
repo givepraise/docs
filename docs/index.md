@@ -2,44 +2,48 @@
 slug: /
 ---
 
+import ImageBorder from '@site/src/components/ImageBorder';
+
 # What is Praise?
 
-Recognize and reward community contributions, foster a culture of giving and gratitude.
+Praise is an open source community intelligence and rewards system designed to strengthen online communities through peer recognition and tokenized incentives.
 
-As decentralized organizations grow in size, it becomes difficult to involve the community in determining what contributions to value. Praise encourages communities to cultivate a culture of giving and gratitude by recognizing and rewarding contributions.
+At its core, Praise allows community members to openly acknowledge and appreciate each other's contributions through simple peer-to-peer messages called "praise statements." These statements recognize efforts both big and small, creating a transparent record of community participation. A simple example would be:
 
-By listening to what the community values and involving members every step of the way, praise allows bottom-up value systems to emerge. This bottom-up approach to value creation is essential for ensuring that the community remains invested and engaged.
+```
+/praise @john for creating an excellent tutorial on setting up
+ the developer environment. It saved me hours of time and frustration.
+```
 
-Praise is used to recognize the full range of value created, from minor to major contributions. Contributions made outside of any platform can also be recognized. This promotes a more positive and productive community as a whole.
+But Praise is much more than just words of encouragement - it utilizes advanced data analysis and machine learning to extract powerful insights from praise data. We call this "community intelligence."
+
+Community leaders can use these AI-generated insights to make data-driven decisions, identify trends, optimize incentives, and gain a competitive edge.
+
+Praise also integrates with token distribution platforms, allowing communities to reward contributions through points, badges, POAPs, NFTs, and more. The system is highly configurable to align incentives around community values and goals.
+
+In summary, Praise strengthens communities in four key ways:
+
+**Peer Recognition** - A culture of appreciation, gratitude, and transparency
+
+**Community Intelligence** - Data analysis and machine learning for insights
+
+**Reputation & Rewards** - Configurable incentives tied to verifiable contributions
+
+**Culture Building** - Increased participation, positivity, and collaboration
 
 ## Who uses Praise?
 
-Praise has been tried and tested in communities such as the [Token Engineering Commons](https://tecommons.org), [Commons Stack](https://commonsstack.org) and [Giveth](https://giveth.io).
+Praise is already being used successfully by communities including [Giveth](https://giveth.io/), [GnosisDAO](https://twitter.com/GnosisDAO), [General Magic](https://generalmagic.io/), [DAppNode](https://dappnode.com/), [ShapeShift](https://twitter.com/ShapeShift), [RefiDAO](https://twitter.com/refidaoist), [Commons Stack](https://twitter.com/commonsstack) and others.
 
-## Recognizing contributions, but how?
+Visit the [Praise Explorer](https://explorer.givepraise.xyz/) to see Praise in action!
 
-Praise integrates with the community's existing tools and platforms. It can be used to recognize contributions made on GitHub, Discord, Twitter, Telegram, and more. It can also be used to recognize contributions made outside of any platform. To recognize a contribution, a member of the community simply needs to interact with the praise bot:
+<ImageBorder><a href="https://explorer.givepraise.xyz/" target="_blank"><img src="/img/explorer.jpg"/></a></ImageBorder>
 
-```
-/praise @vitalik.eth for "inventing Ethereum"
-```
+## Learn More
 
-## On what platforms is Praise available?
+In the following sections we will explore how Praise works and how to use it.
 
-The praise bot currently is available for Discord. More platforms will be added in the future.
-
-## Praise is Open Source
-
-Praise is an open source system developed by [Commons Stack](https://commonsstack.org). To learn more about how Praise could be used in your community please reach out to us!
-
-- [Discord](http://discord.link/commonsstack)
-- [Telegram](https://t.me/joinchat/HGrjjRS2PoowbH1ODuefuA)
-- [Twitter](https://twitter.com/commonsstack)
-
-## Commons Stack Services
-
-As an open source product, Praise can be deployed by any community that wishes to use it. The deployment protocols we use are also freely available to guide a community through self-deployment.
-
-However, we also support communities that wish to have Commons Stack manage this process for them. In contracting Commons Stack, you will work with the core team members that have conceived and developed Praise as well as benefit from our experience deploying and managing Praise in multiple communities.
-
-Reach out to us on the [Commons Stack Discord](http://discord.link/commonsstack) to talk about this option.
+- [Step 1 - Praise](/how-praise-works/praise)
+- Step 2 - Quantify
+- Step 3 - Analyze
+- Step 4 - Reward
