@@ -44,6 +44,6 @@ Visit the [Praise Explorer](https://explorer.givepraise.xyz/) to see Praise in a
 In the following sections we will explore how Praise works and how to use it.
 
 - [Step 1 - Praise](/how-praise-works/praise)
-- Step 2 - Quantify
-- Step 3 - Analyze
-- Step 4 - Reward
+- [Step 2 - Quantify](/how-praise-works/quantify)
+- [Step 3 - Analyze](/how-praise-works/analyze)
+- [Step 4 - Reward](/how-praise-works/reward)
