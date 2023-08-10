@@ -68,7 +68,12 @@ const sidebars = {
       type: 'doc',
       label: 'Writing excellent Praise', 
       id: 'writing-excellent-praise', 
-    },    
+    }, 
+    {
+      type: 'doc',
+      label: 'Praise for Data Analysts', 
+      id: 'praise-for-data-analysts', 
+    },   
     {
       type: 'doc',
       label: 'Glossary', 

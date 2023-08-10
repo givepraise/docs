@@ -26,7 +26,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "HelveticaNeue-Regular";
-  --ifm-leading: 2rem;
+  --ifm-leading: 1rem;
   --ifm-heading-margin-bottom: 2rem;
   --ifm-paragraph-margin-bottom: 1rem;
   --ifm-menu-color: #000;
@@ -78,11 +78,11 @@ body {
 }
 
 h1 {
-  @apply text-4xl font-bold leading-loose;
+  @apply text-4xl font-bold;
 }
 
 h2 {
-  @apply text-3xl font-bold leading-loose;
+  @apply text-3xl font-bold;
 }
 
 .black-section {
@@ -145,4 +145,12 @@ h2 {
 .navbar,
 .navbar-sidebar__brand {
   @apply shadow-none;
+}
+
+.imageborder {
+  @apply p-8 mb-3;
+}
+
+.imageborder img {
+  @apply rounded-lg drop-shadow-2xl;
 }
