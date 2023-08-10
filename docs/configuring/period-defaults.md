@@ -16,7 +16,7 @@ Increasing this value requires more users to be in the [quantifier pool](/glossa
 
 The second value that determines the number of users needed in the [quantifier pool](/glossary#quantifier-pool) is this. `Praise Per Quantifier` determines the workload of each individual quantifier. The more praise a quantifier gets assigned, the higher the workload is and the less quantifiers needed in the pool.
 
-Note that the exact number of praise per quantifier can differ from this setting after assigning. The assignment algorithm also need to take into account the total number of praise, the number of quantifiers and who praised who.
+Note that the exact number of praise per quantifier can differ from this setting after assigning. The assignment algorithm also needs to take into account the total number of praise, the number of quantifiers and who praised who.
 
 :::info
 
@@ -34,7 +34,7 @@ Turning this on obscures giver and receiver names by a random pseudonym during q
 
 `Default value: 0.1 (10%)`
 
-A receiver getting praised two times for the same contribution should not get double the praise score, that is quite obvious. Both praise still refer to one single controbution. Allowing for that would see Praise deteriorate into a popularity contest where persons that manage to get the community to praise their actions the most number of times end up on top. But, multiple praise for the same contribution is not a non-signal, it is not pure noise. By changing this setting you allow duplicate praise to "inherit" some of the value of the original.
+A receiver getting praised two times for the same contribution should not get double the praise score, that is quite obvious. Both praise still refer to one single contribution. Allowing for that would see Praise deteriorate into a popularity contest where persons that manage to get the community to praise their actions the most number of times end up on top. But, multiple praise for the same contribution is not a non-signal, it is not pure noise. By changing this setting you allow duplicate praise to "inherit" some of the value of the original.
 
 Example:
 
